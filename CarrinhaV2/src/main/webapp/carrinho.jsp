@@ -13,7 +13,7 @@
 <body>
 	<h1>Carrinho</h1>
 	<a href="novo.html" class="Botao1">Novo Produto</a>
-	<a href="" class="Botao2">Relatório</a>
+	
 	<table id="tabela">
 		<thead>
 			<tr>

@@ -16,13 +16,13 @@
 				<td><input type="text" name="id" readonly id="caixa3" value="<%out.println(request.getAttribute("id"));%>"></td>
 			</tr>
 			<tr>
-				<td><input type="text" name="produto" class="Caixa1" value="<%out.println(request.getAttribute("produto"));%>"></td>
+				<td><input type="text" name="produto" readonly class="Caixa1" value="<%out.println(request.getAttribute("produto"));%>"></td>
 			</tr>
 			<tr>
 				<td><input type="text" name="quantidade" class="Caixa2" value="<%out.println(request.getAttribute("quantidade"));%>"></td>
 			</tr>
 			<tr>
-				<td><input type="text" name="valor" class="Caixa1" value="<%out.println(request.getAttribute("valor"));%>"></td>
+				<td><input type="text" name="valor" readonly class="Caixa1" value="<%out.println(request.getAttribute("valor"));%>"></td>
 			</tr>
 		</table>
 		<input type="button" value="salvar" class="Botao1" onclick="validar()">
